@@ -1,0 +1,161 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 25px;
+}
+
+.headerLeft {
+  display: flex;
+  width: 80%;
+  align-items: center;
+}
+
+.headerRight {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.statusMember {
+  color: #ceb66f;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.notif {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #ff6100;
+  border-radius: 10px;
+  border: 3px solid white;
+  top: 0px;
+  right: -10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.address {
+  padding-inline: 25px;
+  margin-bottom: 15px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.arrowDown {
+  width: 15px;
+  height: 15px;
+}
+
+.preorder {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #f7f7f7;
+  padding: 20px 30px 60px 30px;
+}
+
+.arrowRight {
+  width: 15px;
+  height: 15px;
+}
+
+.headerPreorder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.calender {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.buttonPreorder {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.buttonChooseDate {
+  background-color: #ff6100 !important;
+  font-weight: bold !important;
+  text-transform: none !important;
+  margin-right: 10px !important;
+}
+
+.buttonSeeCalender {
+  margin-left: 10px !important;
+  text-transform: none !important;
+  color: #ff6100 !important;
+  border: 1px solid #ff6100 !important;
+}
+
+.orangeSection {
+  margin-top: -30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #ff6100;
+  padding: 0px 0px 60px 0px;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.flexSpaceBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 30px 20px 30px;
+}
+
+.listHorizontal {
+  padding-left: 30px;
+  overflow-x: scroll;
+  display: list-item;
+  white-space: nowrap;
+}
+
+.whiteSection {
+  margin-top: -30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #ffffff;
+  padding: 0px 0px 60px 0px;
+  overflow: hidden;
+}
+
+.graySection {
+  margin-top: -30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #f7f7f7;
+  padding: 20px 30px 30px 30px;
+  overflow: hidden;
+  min-height: 100px;
+}
+
+.bottomAreaDashboard {
+  margin-top: -20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding: 20px 30px 30px 30px;
+  background-color: #ffffff;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
